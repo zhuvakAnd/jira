@@ -68,14 +68,4 @@ Both Client and API are currently tested through [end-to-end Cypress tests](http
 
 I will not be accepting PR's on this repository. Feel free to fork and maintain your own version.
 
-## License
-
-[MIT](https://opensource.org/licenses/MIT)
-
 <hr>
-
-<h3>
-  <a href="https://jira.ivorreic.com/">Visit the live app</a> |
-  <a href="https://github.com/oldboyxx/jira_clone/tree/master/client">View client</a> |
-  <a href="https://github.com/oldboyxx/jira_clone/tree/master/api">View API</a>
-</h3>
