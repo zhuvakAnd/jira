@@ -14,8 +14,8 @@ FROM nginx:stable-alpine
 
 COPY --from=build /app/build /var/www/html/build/
 
-COPY /home/andrii/nginx.conf /etc/nginx/nginx.conf
-COPY /home/andrii/site.conf  /etc/nginx/conf.d/site.conf
+COPY nginx.conf /etc/nginx/nginx.conf
+COPY site.conf  /etc/nginx/conf.d/site.conf
 
 EXPOSE 80
 
